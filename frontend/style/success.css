@@ -1,0 +1,133 @@
+/* Navbar */
+
+.navbar {
+    width: 1440px;
+    height: 56px;
+    background: #BB8181;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.05em;
+
+    color: #ffffff !important;
+}
+
+/* Tutup Navbar */
+
+/* Verifikasi */
+body{
+    background-color: #BB8181;
+}
+
+.success {
+    margin-top: 90px;
+    width: 570px;
+    height: 610px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.success-logo{
+    margin-top: 64px;
+    width: 127px;
+    height: 125px;
+}
+
+.success p{
+    margin-top: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+
+    color: #000000;
+}
+
+.form-data-pin {
+    width: 45px;
+    height: 55px;
+    background: #FCFCFC;
+    border: 1px solid #7D7D7D;
+    text-align: center;
+}
+
+.success a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #DD2E44;
+}
+
+.btn-submit {
+    width: 280px;
+    height: 40px;
+    outline: none;
+    border: none;
+
+    background: #AA6767;
+    border-radius: 7px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+    transition: all 0.2s ease;
+}
+
+.btn-submit a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-back a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-back {
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #AA6767;
+    border-radius: 7px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+    color: #AA6767;
+    transition: all 0.2s ease;
+
+}
+
+button:hover {
+    filter: drop-shadow(-4px -4px 5px rgba(0, 0, 0, 0.25));
+
+}
+
+.text-left{
+    position: absolute;
+    margin-top: -560px;
+    margin-left: -80px;
+}
+
+.text-right {
+    position: absolute;
+    margin-top: -560px;
+    margin-left: -150px;
+}
+/* TutupVerifikasi */

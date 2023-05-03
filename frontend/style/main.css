@@ -1,0 +1,307 @@
+/* Navbar */
+
+.navbar {
+    width: 1440px;
+    height: 56px;
+    background: #FFF2F2;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+
+    color: #D16969 !important;
+}
+
+.nav-item .nav-link.active {
+    font-family: 'Iowan Old Style';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FF6D6D !important;
+}
+
+.navbar-nav {
+    padding-right: 100px;
+}
+
+.nav-link {
+    font-family: 'Iowan Old Style';
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #FF6D6D !important;
+}
+/* Tutup Navbar */
+
+/* Section */
+.hero-section{
+    padding-top: 100px;
+    width: 1440px;
+    height: 600px;
+
+    background: #FFF2F2;
+    box-shadow: 0px 4px 4px #F7DFDE;
+}
+
+.heading h3 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+
+    color: #000000;
+}
+
+.heading p {
+    margin-top: -15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.btn-submit {
+    margin-top: 15px;
+    box-sizing: border-box;
+
+    width: 224px;
+    height: 55px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: -4px -5px 0px #000000;
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    padding-top: 12px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #000000;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-submit:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: scale(1.1);
+}
+
+.tatoo {
+    margin-top: -150px;
+}
+/* Tutup Section */
+
+/* Kategori */
+.kategori-section {
+    margin-left: 100px;
+}
+
+.kategoribunga {
+    margin-top: -90px;
+    padding-top: 80px;
+    width: 1440px;
+    height: 630px;
+
+    background: #FFF2F2;
+}
+
+.kategori-head h5{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+
+    color: #D16969;
+}
+
+.kategori-head hr.garis-horizontal {
+    width: 1066px;
+    height: 0px;
+    margin-top: -25px;
+
+    border: 1px solid #DBADAB;
+}
+
+.jenis-kategori{
+    margin-top: 20px;
+}
+
+.bunga-kategori img {
+    margin-left: 200px;
+}
+
+.product-kategori img{
+    transition: all 0.2s ease-in-out;
+}
+
+.product-kategori img:hover {
+    transform: scale(1.1);
+}
+
+/* Tutup Kategori */
+
+/* Produk Favorit */
+section.product-fav {
+    margin-top: 50px;
+    width: 1440px;
+    height: 600px;
+
+    background: linear-gradient(99.16deg, rgba(219, 173, 171, 0.3) 2.58%, #FFF2F2 49.74%, rgba(215, 168, 168, 0.69) 87.2%);
+}
+
+.bunga-fav {
+    float: right;
+    margin-top: -100px;
+}
+
+.favorit-head h5 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+
+    color: #D16969;
+}
+
+.produk-unggulan {
+    margin-left: 100px;
+}
+
+.produk-favorit {
+    margin-left: -20px;
+}
+
+.product-text {
+    width: 256px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #741818;
+
+}
+
+.btn-look {
+    width: 216px;
+    height: 37px;
+
+    background: #D16969;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    font-family: 'Nunito';
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-look:hover {
+    transform: scale(1.1);
+    color: #FFFFFF;
+    outline: none;
+}
+
+.product-text:hover{
+    color: #741818;
+}
+/* Tutup Produk Favorit */
+
+/* Footer */
+.footer {
+    padding-top: 50px;
+    width: 1440px;
+    height: 300px;
+
+    background: #FFF2F2;
+
+}
+
+.footer-isi {
+    margin-left: 102px;
+}
+ 
+.footer-right {
+    margin-right: 225px;
+}
+
+.footer h2 {
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: -0.05em;
+
+    color: #D16969;
+}
+
+.footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+}
+
+.footer-list h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #D16969;
+}
+
+.footer-list a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+}
+
+.footer-list p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+}
+
+.copyright {
+    width: 1440px;
+    height: 42px;
+
+    background: #741818;
+    border-top: 1px solid #000000;
+}
+
+.copyright h5 {
+    padding-top: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+/* Tutup Footer */
